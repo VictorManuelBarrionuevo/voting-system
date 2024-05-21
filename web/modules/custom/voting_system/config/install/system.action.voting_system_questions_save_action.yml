@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - voting_system
+id: voting_system_questions_save_action
+label: 'Save questionss'
+type: voting_system_questions
+plugin: entity:save_action:voting_system_questions
+configuration: {  }

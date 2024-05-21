@@ -1,0 +1,23 @@
+views.field.voting_system_total_votes:
+  type: views.field.field
+  label: 'Total Votes'
+  mapping:
+    example:
+      type: string
+      label: 'Example'
+
+views.field.voting_system_average_votes:
+  type: views.field.field
+  label: 'Average Votes'
+  mapping:
+    example:
+      type: string
+      label: 'Example'
+
+views.field.voting_system_average_votes_per_question:
+  type: views.field.field
+  label: 'Average Votes per Question'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

@@ -1,0 +1,68 @@
+entity.voting_system_questions.settings:
+  title: 'Settings'
+  route_name: entity.voting_system_questions.settings
+  base_route: entity.voting_system_questions.settings
+entity.voting_system_questions.view:
+  title: 'View'
+  route_name: entity.voting_system_questions.canonical
+  base_route: entity.voting_system_questions.canonical
+entity.voting_system_questions.edit_form:
+  title: 'Edit'
+  route_name: entity.voting_system_questions.edit_form
+  base_route: entity.voting_system_questions.canonical
+entity.voting_system_questions.delete_form:
+  title: 'Delete'
+  route_name: entity.voting_system_questions.delete_form
+  base_route: entity.voting_system_questions.canonical
+  weight: 10
+entity.voting_system_questions.collection:
+  title: 'Questionss'
+  route_name: entity.voting_system_questions.collection
+  base_route: system.admin_content
+  weight: 10
+
+entity.voting_system_answer.settings:
+  title: 'Settings'
+  route_name: entity.voting_system_answer.settings
+  base_route: entity.voting_system_answer.settings
+entity.voting_system_answer.view:
+  title: 'View'
+  route_name: entity.voting_system_answer.canonical
+  base_route: entity.voting_system_answer.canonical
+entity.voting_system_answer.edit_form:
+  title: 'Edit'
+  route_name: entity.voting_system_answer.edit_form
+  base_route: entity.voting_system_answer.canonical
+entity.voting_system_answer.delete_form:
+  title: 'Delete'
+  route_name: entity.voting_system_answer.delete_form
+  base_route: entity.voting_system_answer.canonical
+  weight: 10
+entity.voting_system_answer.collection:
+  title: 'Answers'
+  route_name: entity.voting_system_answer.collection
+  base_route: system.admin_content
+  weight: 10
+
+entity.voting_system_vote.settings:
+  title: 'Settings'
+  route_name: entity.voting_system_vote.settings
+  base_route: entity.voting_system_vote.settings
+entity.voting_system_vote.view:
+  title: 'View'
+  route_name: entity.voting_system_vote.canonical
+  base_route: entity.voting_system_vote.canonical
+entity.voting_system_vote.edit_form:
+  title: 'Edit'
+  route_name: entity.voting_system_vote.edit_form
+  base_route: entity.voting_system_vote.canonical
+entity.voting_system_vote.delete_form:
+  title: 'Delete'
+  route_name: entity.voting_system_vote.delete_form
+  base_route: entity.voting_system_vote.canonical
+  weight: 10
+entity.voting_system_vote.collection:
+  title: 'Votes'
+  route_name: entity.voting_system_vote.collection
+  base_route: system.admin_content
+  weight: 10

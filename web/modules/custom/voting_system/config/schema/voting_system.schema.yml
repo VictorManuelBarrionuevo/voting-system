@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Voting System module.
+voting_system.settings:
+  type: config_object
+  label: 'Voting System settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

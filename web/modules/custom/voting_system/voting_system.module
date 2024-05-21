@@ -1,0 +1,78 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Voting System module.
+ */
+
+use Drupal\Core\Render\Element;
+use Drupal\user\UserInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function voting_system_theme(): array
+{
+    return [
+      'voting_system_questions' => ['render element' => 'elements'],
+      'voting_system_answer' => ['render element' => 'elements'],
+      'voting_system_vote' => ['render element' => 'elements'],
+    ];
+}
+
+/**
+ * Prepares variables for questions templates.
+ *
+ * Default template: voting-system-questions.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing the questions information and any
+ *     fields attached to the entity.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_voting_system_questions(array &$variables): void
+{
+    $variables['view_mode'] = $variables['elements']['#view_mode'];
+    foreach (Element::children($variables['elements']) as $key) {
+        $variables['content'][$key] = $variables['elements'][$key];
+    }
+}
+
+/**
+ * Prepares variables for answer templates.
+ *
+ * Default template: voting-system-answer.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing the answer information and any
+ *     fields attached to the entity.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_voting_system_answer(array &$variables): void
+{
+    $variables['view_mode'] = $variables['elements']['#view_mode'];
+    foreach (Element::children($variables['elements']) as $key) {
+        $variables['content'][$key] = $variables['elements'][$key];
+    }
+}
+
+/**
+ * Prepares variables for vote templates.
+ *
+ * Default template: voting-system-vote.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing the vote information and any
+ *     fields attached to the entity.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_voting_system_vote(array &$variables): void
+{
+    $variables['view_mode'] = $variables['elements']['#view_mode'];
+    foreach (Element::children($variables['elements']) as $key) {
+        $variables['content'][$key] = $variables['elements'][$key];
+    }
+}

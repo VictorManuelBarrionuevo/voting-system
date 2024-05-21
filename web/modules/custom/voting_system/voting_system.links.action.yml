@@ -1,0 +1,17 @@
+voting_system_questions.add_form:
+  title: 'Add Questions'
+  route_name: entity.voting_system_questions.add_form
+  appears_on:
+    - entity.voting_system_questions.collection
+
+voting_system_answer.add_form:
+  title: 'Add Answer'
+  route_name: entity.voting_system_answer.add_form
+  appears_on:
+    - entity.voting_system_answer.collection
+
+voting_system_vote.add_form:
+  title: 'Add vote'
+  route_name: entity.voting_system_vote.add_form
+  appears_on:
+    - entity.voting_system_vote.collection

@@ -1,0 +1,3 @@
+[id^="edit-vote-"][id$="--wrapper"] {
+    display: none;
+}

@@ -1,0 +1,39 @@
+entity.voting_system_questions.settings:
+  path: 'admin/structure/voting-system-questions'
+  defaults:
+    _form: '\Drupal\voting_system\Form\QuestionsSettingsForm'
+    _title: 'Questions'
+  requirements:
+    _permission: 'administer voting_system_questions'
+
+entity.voting_system_answer.settings:
+  path: 'admin/structure/voting-system-answer'
+  defaults:
+    _form: '\Drupal\voting_system\Form\AnswerSettingsForm'
+    _title: 'Answer'
+  requirements:
+    _permission: 'administer voting_system_answer'
+
+entity.voting_system_vote.settings:
+  path: 'admin/structure/voting-system-vote'
+  defaults:
+    _form: '\Drupal\voting_system\Form\VoteSettingsForm'
+    _title: 'Vote'
+  requirements:
+    _permission: 'administer voting_system_vote'
+
+voting_system.voting:
+  path: '/voting-system/voting'
+  defaults:
+    _title: 'Voting'
+    _form: 'Drupal\voting_system\Form\VotingForm'
+  requirements:
+    _permission: 'access content'
+
+voting_system.voting_settings:
+  path: '/admin/config/system/voting-settings'
+  defaults:
+    _title: 'Voting settings'
+    _form: 'Drupal\voting_system\Form\VotingSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

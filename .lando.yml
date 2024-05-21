@@ -1,0 +1,4 @@
+name: voting-system
+recipe: drupal10
+config:
+  webroot: web

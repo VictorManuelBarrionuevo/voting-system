@@ -1,0 +1,5 @@
+name: 'Voting System'
+type: module
+description: 'The simple voting system allows users to vote on questions registered by the administrator'
+package: Custom
+core_version_requirement: ^10 || ^11

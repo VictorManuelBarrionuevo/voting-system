@@ -1,0 +1,35 @@
+administer voting_system_questions:
+  title: 'Administer questionss'
+  restrict access: true
+view voting_system_questions:
+  title: 'View questions'
+edit voting_system_questions:
+  title: 'Edit questions'
+delete voting_system_questions:
+  title: 'Delete questions'
+create voting_system_questions:
+  title: 'Create questions'
+
+administer voting_system_answer:
+  title: 'Administer answers'
+  restrict access: true
+view voting_system_answer:
+  title: 'View answer'
+edit voting_system_answer:
+  title: 'Edit answer'
+delete voting_system_answer:
+  title: 'Delete answer'
+create voting_system_answer:
+  title: 'Create answer'
+
+administer voting_system_vote:
+  title: 'Administer votes'
+  restrict access: true
+view voting_system_vote:
+  title: 'View vote'
+edit voting_system_vote:
+  title: 'Edit vote'
+delete voting_system_vote:
+  title: 'Delete vote'
+create voting_system_vote:
+  title: 'Create vote'

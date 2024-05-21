@@ -1,0 +1,32 @@
+entity.voting_system_questions.edit_form:
+  route_name: entity.voting_system_questions.edit_form
+  group: voting_system_questions
+  title: 'Edit'
+
+entity.voting_system_questions.delete_form:
+  route_name: entity.voting_system_questions.delete_form
+  group: voting_system_questions
+  title: 'Delete'
+  weight: 10
+
+entity.voting_system_answer.edit_form:
+  route_name: entity.voting_system_answer.edit_form
+  group: voting_system_answer
+  title: 'Edit'
+
+entity.voting_system_answer.delete_form:
+  route_name: entity.voting_system_answer.delete_form
+  group: voting_system_answer
+  title: 'Delete'
+  weight: 10
+
+entity.voting_system_vote.edit_form:
+  route_name: entity.voting_system_vote.edit_form
+  group: voting_system_vote
+  title: 'Edit'
+
+entity.voting_system_vote.delete_form:
+  route_name: entity.voting_system_vote.delete_form
+  group: voting_system_vote
+  title: 'Delete'
+  weight: 10

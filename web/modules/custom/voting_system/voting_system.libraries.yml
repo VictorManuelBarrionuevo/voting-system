@@ -1,0 +1,10 @@
+vote_form:
+  version: 1.x
+  css:
+    theme:
+      css/vote_form.css: {}
+  js:
+    js/vote_form.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
